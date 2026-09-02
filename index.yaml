@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   tractusx-connector:
   - apiVersion: v2
-    appVersion: 0.13.0-SNAPSHOT
-    created: "2026-08-07T10:07:59.754061144+02:00"
+    appVersion: 0.13.0
+    created: "2026-09-02T10:40:27.305080819+02:00"
     dependencies:
     - alias: vault
       condition: install.vault
@@ -20,7 +20,7 @@ entries:
       Note that _no_ external dependencies such as a PostgreSQL database and HashiCorp
       Vault are included.  This chart is intended for use with an _existing_ PostgreSQL
       database and an _existing_ HashiCorp Vault. '
-    digest: 0169f99fb73ea47a8463de87826e72c00ca264712413a6aa2ba2c720e35ccd67
+    digest: 72474ac2822613152948dbe9d2abdb517f99db49434294f4928ba97facad6654
     home: https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/tractusx-connector
     name: tractusx-connector
     sources:
@@ -31,7 +31,7 @@ entries:
     version: 0.13.0-gateway
   - apiVersion: v2
     appVersion: 0.12.1
-    created: "2026-08-07T10:07:59.746872823+02:00"
+    created: "2026-09-02T10:40:27.298217044+02:00"
     dependencies:
     - alias: vault
       condition: install.vault
@@ -57,4 +57,4 @@ entries:
     urls:
     - https://inripa.github.io/tractusx-edc/tractusx-connector-0.12.1-fix1.tgz
     version: 0.12.1-fix1
-generated: "2026-08-07T10:07:59.73705481+02:00"
+generated: "2026-09-02T10:40:27.288955484+02:00"
